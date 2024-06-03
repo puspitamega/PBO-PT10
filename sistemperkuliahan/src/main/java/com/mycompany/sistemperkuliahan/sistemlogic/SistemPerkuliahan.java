@@ -14,6 +14,17 @@ public class SistemPerkuliahan {
     private Dosen[] dataDosens;
     private Mahasiswa[] dataMahasiswas;
     private Staf[] dataStafs;
+
+    public SistemPerkuliahan() {
+    }
+
+    public SistemPerkuliahan(int maxPerkuliahan, int MaxDosen, int MaxMahasiswa, Staf[] dataStafs) {
+        this.dataPerkuliahans = dataPerkuliahans;
+        this.dataDosens = dataDosens;
+        this.dataMahasiswas = dataMahasiswas;
+        this.dataStafs = dataStafs;
+    }
+    
     
     
 }

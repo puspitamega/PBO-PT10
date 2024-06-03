@@ -14,9 +14,10 @@ import java.util.Scanner;
 public class TextUI {
     private static final Scanner scanner = new Scanner(System.in);
 
-    /**
-     *
-     */
+    public TextUI(){
+        System.out.println("Ini adalah konstruktor dari Text UI");
+    }
+    
     public void run() {
             displayMainMenu();
             int choice = scanner.nextInt();
